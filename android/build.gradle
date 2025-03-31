@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'de.bytepark.autoorientation'
+
     compileSdkVersion 31
 
     defaultConfig {
